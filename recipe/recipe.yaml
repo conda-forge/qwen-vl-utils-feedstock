@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: qwen-vl-utils
-  version: "0.0.11"
+  version: "0.0.13"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/qwen_vl_utils-${{ version }}.tar.gz
-  sha256: 083ba1e5cfa5002165b1e3bddd4d6d26d1d6d34473884033ef12ae3fe8496cd5
+  sha256: d0871c0010cd02fd32241eed2fe57b381cc26d93b0044c0d98edd00cac3d194d
 
 build:
   number: 0
